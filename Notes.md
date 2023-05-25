@@ -104,6 +104,10 @@ Finally, in the folder where you want the folder structure to exist, launch:
 
 `xargs mkdir -p < dirs.txt`
 
+### Access WSL files from Windows Explorer
+WSL files and folders are stored in
+`\\wsl.localhost\Ubuntu-22.04`
+
 ## Matlab Notes
 ### Change default figure size & position
 `set(0, 'DefaultFigurePosition', [-1079,-161,1080,1843]);`
